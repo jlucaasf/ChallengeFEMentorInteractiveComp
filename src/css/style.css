@@ -1,0 +1,202 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%);
+
+}
+
+.box-principal {
+
+
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 18%);
+    
+    
+    
+}
+
+.esconder {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.box-estrela {
+    margin-right: 75%;
+    margin-top: 10%;
+    background-color: hsl(214, 21%, 22%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icone-estrela {
+    width: 35%;
+}
+.titulo {
+    font-size: 1.7rem;
+    padding-top: 30px;
+    margin-right: 130px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+
+
+
+}
+
+.texto {
+    font-size: 15px;
+    padding-top: 15px;
+    line-height: 25px;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.botoes {
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.botoes .botao-efeito:hover {
+
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+
+}
+
+.botao-efeito-click {
+    border-radius: 50%;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.botao-efeito {
+    border-radius: 50%;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: hsl(214, 21%, 22%);
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+.botao-submit {
+
+    width: 320px;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.botao-submit:hover {
+
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+
+
+}
+
+.box-secundario {
+
+    width: 400px;
+    height: 400px;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 18%);
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    position: fixed;   
+    visibility: hidden;
+}
+
+.aparecer {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 18%);
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    position: fixed;   
+    
+}
+
+
+.imagem-thank {
+    padding-bottom: 30px;
+}
+
+.texto-escolha {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(214, 21%, 22%);
+    color: hsl(25, 97%, 53%);
+    padding: 0.5rem 1rem;
+    letter-spacing: 1px;
+    border-radius: 20px;
+
+}
+
+.titulo-thank {
+
+    color: white;
+    padding-top: 20px;
+
+}
+
+.texto-dois {
+    color: hsl(217, 12%, 63%);
+    padding-top: 20px;
+    font-size: 15px;
+    
+
+}
+
+
+
+

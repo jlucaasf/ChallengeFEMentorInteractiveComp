@@ -1,0 +1,31 @@
+@media (max-width: 376px) {
+body {
+
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+   
+
+
+
+.box-principal {
+    
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+    
+  
+}
+
+.botoes {
+    
+    display: flex;
+    width: 90%;
+}
+
+}
